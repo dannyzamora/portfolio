@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import Av from './Avatar'
 
 
 import {
@@ -21,17 +21,9 @@ const styles = {
     }
 };
 const Pages = () =>
-    <Fragment>
-        <Grid container justify='center'>
-            <Avatar
-
-                style={styles.bigAvatar}
-                alt="Danny"
-                src={require('../../assets/dan.jpeg')} />
-
-
-        </Grid>
-    </Fragment>
+   
+        <Av/>
+   
 
 
 
