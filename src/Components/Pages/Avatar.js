@@ -14,7 +14,7 @@ const styles = theme => ({
     bigAvatar: {
         width: 250,
         height: 250,
-        margin: 5,
+        margin: 'auto',
 
     }
 });
@@ -22,13 +22,12 @@ const styles = theme => ({
 const Pages = ({classes}) => 
    
 
-    <Grid container justify='center'>
+   
         <Avatar
             className={classes.bigAvatar}
             alt="Danny"
             src={require('../../assets/dan.jpeg')} />
 
 
-    </Grid>
 
 export default withStyles(styles)(Pages)
