@@ -12,9 +12,10 @@ import {
 const styles = theme => ({
 
     bigAvatar: {
-        width: 250,
-        height: 250,
+        width: 150,
+        height: 150,
         margin: 'auto',
+        marginBottom: '10px'
 
     }
 });

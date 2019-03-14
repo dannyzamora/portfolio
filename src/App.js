@@ -4,8 +4,20 @@ import Pages from './Components/Pages'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
 class App extends Component {
-  
+  state ={
+
+    selects: ['About','Projects','Resume'],
+    picked: 'About'
+
+  }
+
+  handleSelect = picked =>
+  this.setState({
+    picked
+  })
+
   render() {
+   const {selects,picked} = this .state
     return (
       <Fragment>
       <CssBaseline />
@@ -13,6 +25,11 @@ class App extends Component {
 
         <Header />
         <Pages 
+        selects ={selects}
+        picked ={picked}
+        onSelect={this.handleSelect}
+
+
         />
         <Footer />
           

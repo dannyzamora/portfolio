@@ -3,13 +3,19 @@ import { AppBar, Toolbar, Typography, withStyles } from '@material-ui/core'
 
 
 
-const styles = {
+const styles = theme =>( {
   a: {
     link: {
       color: 'red'
     }
+  },
+  typo:{
+
+
   }
-}
+
+  
+})
 
 
 export default withStyles(styles)(({ classes }) =>
