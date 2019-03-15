@@ -32,6 +32,15 @@ const styles = theme => ({
         }
     },
 
+    div:{
+        width: '600px',
+        border: '25px',
+         padding:'25px',
+        margin: 'auto'
+    }
+
+
+
 })
 
 
@@ -81,8 +90,10 @@ export default withStyles(styles)((
 
             {picked == 'About'
                 ?
-                <Typography align='center' variant='subtitle1' style={{ marginTop: '15px' }}>
-                    About
+                <Typography align='center' variant='subtitle1' style={{ marginTop: '15px' }} className = {classes.div}>
+                    Hello, I’m Danny! I’m an aspiring software developer with a passion in frontend development.
+I’m a passionate outgoing individual that enjoys new challenges that will allow growth. However, I also want to utilize experiences from my internship, school, and life into projects and careers. My knowledge ranges in programming, but have more hands on experience with web development. 
+
                 </Typography >
                 : picked == 'Projects'
                     ?
@@ -93,8 +104,11 @@ export default withStyles(styles)((
                     :
                     <IconContext.Provider value={{  color: 'white',size: "4em", className: "global-class-name" }}>
                         <div style ={{textAlign: "center",marginTop: '20px'}}>
+                        <a href="https://drive.google.com/file/d/1JHbIeo_xSUrCrH3WlHBXhCAYQBc6Ge1O/view?usp=sharing" >
                             <FaRegFilePdf />
+                            </a>
                         </div>
+
                     </IconContext.Provider>
 
             }
