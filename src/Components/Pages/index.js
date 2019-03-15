@@ -33,7 +33,12 @@ const styles = theme => ({
     },
 
     div:{
-        width: '600px',
+        [theme.breakpoints.up('xs')]: {
+            width: '350px'
+        },
+        [theme.breakpoints.up('sm')]: {
+            width: '600px'
+        },
         border: '25px',
          padding:'25px',
         margin: 'auto'
