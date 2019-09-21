@@ -109,7 +109,7 @@ I’m a passionate outgoing individual that enjoys new challenges that will allo
                     :
                     <IconContext.Provider value={{  color: 'white',size: "4em", className: "global-class-name" }}>
                         <div style ={{textAlign: "center",marginTop: '20px'}}>
-                        <a href="https://drive.google.com/file/d/1JHbIeo_xSUrCrH3WlHBXhCAYQBc6Ge1O/view?usp=sharing" >
+                        <a href="https://docs.google.com/document/d/1NKVFMrizhAJRYERX0Tb093HxuS_gqStcQLoawC29cS0/edit?usp=sharing" >
                             <FaRegFilePdf />
                             </a>
                         </div>
